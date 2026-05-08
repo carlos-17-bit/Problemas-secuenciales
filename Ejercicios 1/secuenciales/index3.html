@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/estilosdepintura.css">
+</head>
+<body>
+    <h2>Cotisacion para Pintura</h2>
+
+    <label for="costo">Costo por m2</label>
+    <input type="number" id="costo" value="100"><br>
+    <label for="presupuesto">Cotizacion de pintura</label>
+    <input type="number" id="presupuesto" name="presupuesto"><br>
+    <button onclick="calcular()">Calcular presupuesto</button>
+    <p id="result"></p>
+    <img src="../imagenes/pintura.webp" alt="pintura">
+</body>
+    <script src="../scripts/pintura.js"></script>
+</html>

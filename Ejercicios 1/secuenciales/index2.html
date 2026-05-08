@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/estilodelboleto.css">
+</head>
+<body>
+    <h2>Costo del boleto</h2>
+    
+    <div>
+        <label for="kilometros">kilometros a recorrer</label>
+        <input type="number" id="kilometros" name="kilometros"><br>
+        <label for="boleto">costo por kilometro</label>
+        <input type="number" id="boleto" value="15"><br>
+        <button onclick="costo()">costo del boleto</button>
+        <p id="result"></p>
+        <img src="../imagenes/Camion.webp" alt="boleto">
+    </div>
+</body>
+    <script src="../scripts/boleto.js"></script>
+</html>
